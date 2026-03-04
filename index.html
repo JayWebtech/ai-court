@@ -103,6 +103,25 @@
     letter-spacing: 1px;
   }
 
+  .header-github {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 6px 14px;
+    background: rgba(201, 168, 76, 0.2);
+    border: 1px solid rgba(201, 168, 76, 0.5);
+    border-radius: 4px;
+    color: var(--gold-light);
+    font-size: 0.9rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: background 0.3s, border-color 0.3s, transform 0.2s;
+  }
+  .header-github:hover {
+    background: rgba(201, 168, 76, 0.35);
+    border-color: var(--gold);
+    transform: translateY(-1px);
+  }
+
   .divider {
     border: none;
     height: 2px;
@@ -664,6 +683,7 @@
     <div class="gavel-row">⚖️ 🔨 ⚖️</div>
     <h1 class="title">THE AI PUNISHMENT COURT</h1>
     <p class="subtitle">Where hallucinating models face righteous justice since 2024</p>
+    <a href="https://github.com/JayWebtech/ai-court" target="_blank" rel="noopener noreferrer" class="header-github">GitHub · JayWebtech</a>
   </div>
 
   <hr class="divider">
